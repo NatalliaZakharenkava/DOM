@@ -1,15 +1,14 @@
-﻿int max = 0;
-int min = 0;
+﻿double max = 0;
+double min = 0;
 
 System.Console.WriteLine("Введите первое целое число ");
-
-int a;
-a = Convert.ToInt32(Console.ReadLine());
+double a;
+a = Convert.ToDouble(Console.ReadLine());
 
 System.Console.WriteLine("Введите второе целое число ");
 
-int b;
-b = Convert.ToInt32(Console.ReadLine());
+double b;
+b = Convert.ToDouble(Console.ReadLine());
 
 if (a > b) {
     max = a;
