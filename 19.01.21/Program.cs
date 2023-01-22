@@ -14,8 +14,8 @@ int y2 = Convert.ToInt32(Console.ReadLine());
 
 int z2 = Convert.ToInt32(Console.ReadLine());
 
-double S = (((x2 - x1) * (x2 - x1)) + ((y2 - y1) * (y2 - y1)) + ((z2 - z1) * (z2 - z1)));
+double S = (Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2) + Math.Pow((z2 - z1), 2));
 
-double S1 = Math.Sqrt(S);
+double Distance = Math.Sqrt(S);
 
-System.Console.WriteLine("Расстояние A-B равно " + S1);
+System.Console.WriteLine("Расстояние A --> B равно " + Distance);
