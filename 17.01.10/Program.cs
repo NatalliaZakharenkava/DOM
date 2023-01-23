@@ -1,4 +1,7 @@
-﻿System.Console.WriteLine("--> ");
+﻿/* Задача 10: Напишите программу, которая принимает на вход трёхзначное число
+и на выходе показывает вторую цифру этого числа. */
+
+System.Console.WriteLine("--> ");
 
 int a = Convert.ToInt32(Console.ReadLine());
 int result;
