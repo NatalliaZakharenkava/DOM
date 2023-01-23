@@ -1,4 +1,7 @@
-﻿System.Console.WriteLine("Введите целое число ");
+﻿/* Напишите программу, 
+которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет. */
+
+System.Console.WriteLine("Введите целое число ");
 
 int n = Convert.ToInt32(Console.ReadLine());
 
