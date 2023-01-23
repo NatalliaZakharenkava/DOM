@@ -1,4 +1,7 @@
-﻿System.Console.WriteLine("--> ");
+﻿/* Напишите программу, которая принимает на вход пятизначное число
+и проверяет, является ли оно палиндромом. */
+
+System.Console.WriteLine("--> ");
 
 int a = Convert.ToInt32(Console.ReadLine());
 int b = a / 10000;
